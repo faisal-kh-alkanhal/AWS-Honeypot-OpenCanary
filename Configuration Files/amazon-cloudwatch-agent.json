@@ -1,0 +1,31 @@
+{
+    "logs": {
+        "logs_collected": {
+            "files": {
+                "collect_list": [
+                    {
+                        "file_path": "/var/log/opencanary/opencanary.log",
+                        "log_group_name": "opencanary-honeypot",
+                        "log_stream_name": "{instance_id}",
+                        "timestamp_format": "%Y-%m-%dT%H:%M:%S",
+                        "multi_line_start_pattern": "^\\{"
+                    }
+                ]
+            }
+        },
+        "log_stream_name": "default-stream"
+    },
+    "metrics": {
+        "namespace": "OpenCanary",
+        "metrics_collected": {
+            "cpu": {
+                "measurement": ["cpu_usage_idle"],
+                "metrics_collection_interval": 60
+            },
+            "mem": {
+                "measurement": ["mem_used_percent"],
+                "metrics_collection_interval": 60
+            }
+        }
+    }
+}
