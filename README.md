@@ -152,7 +152,7 @@ Using CloudWatch Insights to aggregate attacker source IPs, the majority of traf
 1. **USA** (`About 70%` of total traffic)
 2. **China** (`About 15%` of total traffic)
 
-Notalbly, most are using cloud providers.
+Notably, most are using cloud providers.
 
 ### 🔑 Credential Analysis (Brute-Force Patterns)
 The fake SSH and HTTP endpoints captured thousands of automated credential-stuffing attempts. Threat actors heavily favored default administrative credentials, validating the critical real-world need for strong password policies and disabling root logins.
