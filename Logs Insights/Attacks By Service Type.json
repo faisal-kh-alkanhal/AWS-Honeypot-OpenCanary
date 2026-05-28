@@ -1,0 +1,34 @@
+[
+    {
+        "logtype": "LOG_SSH_LOGIN_ATTEMPT",
+        "attempts": "475"
+    },
+    {
+        "logtype": "LOG_SSH_NEW_CONNECTION",
+        "attempts": "472"
+    },
+    {
+        "logtype": "LOG_SSH_REMOTE_VERSION_SENT",
+        "attempts": "456"
+    },
+    {
+        "logtype": "LOG_HTTP_GET",
+        "attempts": "14"
+    },
+    {
+        "logtype": "LOG_BASE_MSG",
+        "attempts": "12"
+    },
+    {
+        "logtype": "LOG_HTTP_POST_LOGIN_ATTEMPT",
+        "attempts": "3"
+    },
+    {
+        "logtype": "LOG_FTP_LOGIN_ATTEMPT",
+        "attempts": "1"
+    },
+    {
+        "logtype": "LOG_MYSQL_LOGIN_ATTEMPT",
+        "attempts": "1"
+    }
+]

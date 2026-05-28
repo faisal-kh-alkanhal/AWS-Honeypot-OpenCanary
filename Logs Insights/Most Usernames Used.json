@@ -1,0 +1,42 @@
+[
+    {
+        "logdata.USERNAME": "root",
+        "Uses": "93"
+    },
+    {
+        "logdata.USERNAME": "ubuntu",
+        "Uses": "91"
+    },
+    {
+        "logdata.USERNAME": "admin",
+        "Uses": "89"
+    },
+    {
+        "logdata.USERNAME": "user",
+        "Uses": "88"
+    },
+    {
+        "logdata.USERNAME": "debian",
+        "Uses": "88"
+    },
+    {
+        "logdata.USERNAME": "ec2-user",
+        "Uses": "18"
+    },
+    {
+        "logdata.USERNAME": "dev",
+        "Uses": "3"
+    },
+    {
+        "logdata.USERNAME": "test",
+        "Uses": "3"
+    },
+    {
+        "logdata.USERNAME": "pi",
+        "Uses": "1"
+    },
+    {
+        "logdata.USERNAME": "ftp",
+        "Uses": "1"
+    }
+]
