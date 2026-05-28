@@ -1,0 +1,28 @@
+Attacking IP Addresses
+
+fields src_host
+| stats count() as attempts by src_host
+| sort attempts desc
+| limit 20
+
+Attacks By Service Type
+
+fields logtype
+| stats count() as attempts by logtype
+| sort attempts desc
+
+Most Used Usernames
+
+fields logdata.USERNAME
+| filter logtype = 4002
+| stats count() as Uses by logdata.USERNAME
+| sort Uses desc
+| limit 20
+
+Most Used Passwords
+
+fields logdata.PASSWORD
+| filter logtype = 4002
+| stats count() as Uses by logdata.PASSWORD
+| sort Uses desc
+| limit 20
