@@ -167,10 +167,4 @@ The fake SSH and HTTP endpoints captured thousands of automated credential-stuff
 
 ---
 
-## ⚠️ Disclaimer
-
-This honeypot is intentionally exposed to the internet to attract real attack traffic. It is designed to be deployed in an **isolated AWS account or VPC used exclusively for this purpose**. Do not deploy it alongside production systems or store any sensitive data on the instance. All emulated services are fake and non-exploitable by design, but treat the instance as untrusted.
-
----
-
 *Built as a personal cybersecurity lab project to practice cloud security architecture, threat detection, and AWS infrastructure.*
